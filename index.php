@@ -319,7 +319,7 @@
                                                         </div>
 
                                                         <div class="col-sm-12 col-md-6 col-lg-6 bg-color padd-20 infoholder content-table">
-                                                            <h5>This Calculator estimate the total fees associated with your transaction.</h5>
+                                                            <h5>This calculator estimate the total fees associated with your transaction.</h5>
                                                             <p>Scrow fee is calculated from:</p>
                                                             <ul>
                                                                 <li>how long you keep the money in scrow</li>
@@ -354,7 +354,7 @@
                                                         </div>
 
                                                         <div class="col-sm-12 col-md-6 col-lg-6 bg-color padd-20 infoholder content-table">
-                                                            <h5>This Calculator estimate the total fees associated with your withdrawal.</h5>
+                                                            <h5>This calculator estimate the total fees associated with your withdrawal.</h5>
                                                             <p>Scrow fee is calculated from:</p>
                                                             <ul>
                                                                 <li>the coountry you're transacting from</li>
