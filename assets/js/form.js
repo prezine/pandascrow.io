@@ -32,7 +32,7 @@ class Form {
 	}
 
 	submit(){
-		$("#newslatter").on('submit', function(e) {
+		$("#newslatter").on('submit', (e) => {
 			e.preventDefault();
 			$("#btnsend").attr("disabled", true).val('Signing up...');
 			let email = $(".email-input").val();
