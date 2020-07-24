@@ -13,6 +13,7 @@ class Form {
 					$("#btnsend").attr("disabled", false).val('Subscribe');
 					$(".error-message").text('oops! failed try ❌')
 				}
+				return false;
 			},
 			error: function (res) {
 				$(".error-message").text('OMG! ❌ — '+ JSON.stringify(res));
@@ -33,6 +34,7 @@ class Form {
 	submit(){
 		$("#newslatter").on('submit', function(e) {
 			e.preventDefault();
+			$("#btnsend").attr("disabled", true).val('Signing up...');
 			let email = $(".email-input").val();
 			this.grabmail(email);
 		});
