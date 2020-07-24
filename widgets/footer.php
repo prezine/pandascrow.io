@@ -56,11 +56,11 @@
                                         <img src="assets/images/icons/email-1.svg" alt="">
                                         <h5>Subscribe to Newsletter</h5>
                                         <!-- Newsletter -->
-                                        <div class="subscribe-form ">
-                                            <form action="./#" method="post" class="subscribe-mail">
+                                        <div class="subscribe-form">
+                                            <form action="./#" method="post" id="newslatter">
                                                 <div class="form-group">
                                                     <input type="email" class="form-control email-input" placeholder="Enter your email">
-                                                    <input type="submit" class="btn btn-green" value="Subscribe">
+                                                    <input type="submit" id="btnsend" class="btn btn-green" value="Subscribe">
                                                 </div>
                                                 <p class="error-message"></p>
                                                 <p class="sucess-message"></p>

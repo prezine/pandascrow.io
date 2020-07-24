@@ -1,35 +1,49 @@
 class Form {
 	ajax(method = '', dtype = '', path = '', data = '', successfunc = '', errorfunc = '') {
 		$.ajax({
-			type: "POST",
-			dataType: "json",
-			url: './app/models/getstarted',
+			type: method,
+			dataType: dtype,
+			url: path,
 			data: getstarteddata,
 			success: function(res) {
-				if (res == 200) {
-					$("#submitbtn").text("Created!");
-					error.html(err('success', 'Awesome, Your business has been created'))
-					window.location = "./";
-				} else {
-					$("#submitbtn").attr("disabled", false);
-					$("#submitbtn").text("Create a business");
-					error.html(err('danger', 'Something went wrong, try again soon'))
-				}
+				successfunc(res);
 			},
 			error: function (res) {
-				error.html(err('danger', 'Server message: '+ JSON.stringify(res)))
-				return false;
+				errorfunc(res)
 			}
 		});
 	}
-	grabmail(email) {
+	grabmail(email = ''){
 		if (email.split("@").length != 2) {
-
+			$("#btnsend").attr("disabled", false).val('Subscribe');
+			$(".error-message").text('uhmm! email not right')
 		} else {
-			let successfunc = {
-				
+			// success function
+			let successfunc = (res) => {
+				if (res == 200) {
+					$("#btnsend").attr("disabled", true).val("Subscribed");
+					$(".sucess-message").text('Way to go 🚀');
+				} else {
+					$("#btnsend").attr("disabled", false).val('Subscribe');
+					$(".error-message").text('oops! failed try ❌')
+				}
 			}
-			this.ajax('POST', 'json', './app/newslater', {mail: email}, successfunc)
+			// error function
+			let errorfunc = (res) => {
+				$(".error-message").text('OMG! ❌ — '+ JSON.stringify(res));
+				return false;
+			}
+			this.ajax('POST', 'json', './app/newslater', {mail: email}, successfunc(res), errorfunc(res));
 		}
 	}
+	submit(){
+		$("#newslatter").on('submit', function (e) {
+			e.preventDefault();
+			let email = $(".email-input").val();
+			this.grabmail();
+		})
+	}
 }
+
+form = new Form();
+form.submit();

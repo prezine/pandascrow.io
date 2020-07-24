@@ -782,4 +782,5 @@
     <script src="assets/js/main.js"></script>
 
     <script src="assets/js/pricing.js"></script>
+    <script src="assets/js/form.js"></script>
 </body>
