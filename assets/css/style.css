@@ -398,11 +398,12 @@ Navigation
   padding: 0;
 }
 
-.navbar-header .navbar.sticky li a, .navbar-header .navbar.sticky .search-box-btn{
+.navbar-header .navbar.sticky li a, .navbar-header .navbar.sticky .search-box-btn {
   color:#171f3c;  
 }
 
-.navbar-header .navbar.sticky{
+.navbar-header .navbar.sticky,
+.navbar-header .navbar.manual-sticky{
   background-color: #ffffff;
   box-shadow: 0 8px 28px 2px rgba(61, 61, 61, .12);   
 }

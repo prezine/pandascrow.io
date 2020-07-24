@@ -61,9 +61,7 @@ $(document).ready(function ($) {
 
           if (scroll_top > 40){
             $('.navbar').addClass('sticky');
-
-          }
-          else{
+          } else{
             $('.navbar').removeClass('sticky');  
           }
 

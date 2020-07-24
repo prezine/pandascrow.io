@@ -1,5 +1,5 @@
 <header class="navbar-header clearfix">
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top manual-sticky">
         <!--container-->
         <div class="container">
             <!-- Logo -->
