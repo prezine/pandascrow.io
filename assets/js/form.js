@@ -39,6 +39,10 @@ class Form {
 			this.grabmail(email);
 		});
 	}
+
+	contact(){
+		
+	}
 }
 
 form = new Form();

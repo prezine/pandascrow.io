@@ -687,7 +687,6 @@
         <!--End sponsors clients-->
 
         <!--contact-->
-
         <section id="contact" class=" padd-80">
 
             <!--container-->
@@ -755,9 +754,7 @@
                 </div>
             </div>
             <!--container-->
-
         </section>
-
         <!--contact-->
 
     </div>
