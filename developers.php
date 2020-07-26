@@ -63,7 +63,7 @@
 
         <!--Begin Hero Section-->
         <section id="home" class="bg-color-2">
-            <div class="container-page  hero">
+            <div class="container-page hero">
                 <!--container-->
                 <div class="container">
                     <div class="row">

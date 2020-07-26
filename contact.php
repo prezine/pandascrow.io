@@ -79,20 +79,15 @@
                                 <div class="tab-content">
                                     <div class="tab-pane active" id="tab1">
                                         <div class="pricing-container">
-                                            <div class="row p-4">
+                                            <div class="row pr-4 pl-4">
                                                 <!--table plan -->
-                                                <div class="col-md-12 col-lg-12 col-xs-12">
-                                                    <!-- Sending Funds Tab -->
-                                                    <div class="row p-4 pricingframe" id="deposit">
-                                                        <div class="col-sm-12 col-md-12 col-lg-12">
-                                                            <p class="float-left">What would you like to ask?</p>
-                                                            <div class="input-group">
-                                                                <input type="text" class="form-control" placeholder="eg. What is a Scrow Identification Number?">
-                                                            </div>
-                                                            <p class="float-right info-text">Hit enter to search 🎁</p>
-                                                            
-                                                        </div>
+                                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                                    <p class="float-left">What would you like to ask?</p>
+                                                    <div class="input-group">
+                                                        <input type="text" class="form-control" placeholder="eg. What is a Scrow Identification Number?">
                                                     </div>
+                                                    <p class="float-right info-text">Hit enter to search 🎁</p>
+                                                    
                                                 </div>
                                                 <!--table plan -->
                                             </div>
@@ -125,18 +120,19 @@
                     <div class="row">
                         <div class=" col-md-6 col-sm-6 col-lg-6 col-12">
                             <div class="content-info">
-                                <form action="./#" method="post">
+                                <div id="errno"></div>
+                                <form action="./#" id="contactscrow" method="post">
                                     <div class="form-group">
-                                        <input type="text" name="name" class="form-control" placeholder="Name">
+                                        <input type="text" name="name" id="name" class="form-control" placeholder="Name">
                                     </div>
                                     <div class="form-group">
-                                        <input type="email" name="email" class="form-control" placeholder="Email">
+                                        <input type="email" name="email" id="email" class="form-control" placeholder="Email">
                                     </div>
                                     <div class="form-group">
-                                        <textarea class="form-control" rows="4" cols="3" placeholder="Your message "></textarea>
+                                        <textarea class="form-control" rows="4" id="message" cols="3" placeholder="Your message "></textarea>
                                     </div>
                                     <div class="form-group">
-                                        <button type="submit" class="btn btn-blue">Send message </button>
+                                        <button type="submit" class="btn btn-blue" id="contactbtn">Send message </button>
                                     </div>
                                 </form>
                             </div>
