@@ -687,7 +687,6 @@
         <!--End sponsors clients-->
 
         <!--contact-->
-
         <section id="contact" class=" padd-80">
 
             <!--container-->
@@ -702,7 +701,7 @@
                     <div class="row">
                         <div class=" col-md-6 col-sm-6 col-lg-6 col-12">
                             <div class="content-info">
-                                <form action="./#" method="post">
+                                <form action="./#" id="contactscrow" method="post">
                                     <div class="form-group">
                                         <input type="text" name="name" class="form-control" placeholder="Name">
                                     </div>
@@ -713,7 +712,7 @@
                                         <textarea class="form-control" rows="4" cols="3" placeholder="Your message "></textarea>
                                     </div>
                                     <div class="form-group">
-                                        <button type="submit" class="btn btn-blue">Send message </button>
+                                        <button type="submit" class="btn btn-blue" id="contactbtn">Send message </button>
                                     </div>
                                 </form>
                             </div>
@@ -755,9 +754,7 @@
                 </div>
             </div>
             <!--container-->
-
         </section>
-
         <!--contact-->
 
     </div>
