@@ -1724,6 +1724,7 @@ footer p.sucess-message {
   background-color: #E4F6FF;
   border-radius: 4px;
 }
+.hide { display: none; }
 p.info-text { display:inline-table; font-size:12px; margin-top: 2px;}
 .team-icon {
   display: inline-table;
@@ -1755,25 +1756,4 @@ h5.team-name {
 
 @media screen and (max-width: 767px){
   .infoholder { display: none; }
-}.hide { display: none; }
-@media screen and (max-width: 991px){
-  .right-nav{
-    display: none;
-  }
-  .container-page{
-    margin-bottom: 70px;
-  }
-  }
-  @media screen and (max-width: 992px){
-    .menu-nav-trigger{
-      display: none;
-    }
-    .right-nav{
-      margin-left: 20px;
-    }
-  }
-  @media screen and (max-width: 767px){
-   .container-page{
-     display: none;
-   }
 }
