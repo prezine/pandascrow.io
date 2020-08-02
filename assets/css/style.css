@@ -1678,3 +1678,25 @@ footer p.sucess-message {
   border-radius: 4px;
 }
 .hide { display: none; }
+
+@media screen and (max-width: 991px){
+  .right-nav{
+    display: none;
+  }
+  .container-page{
+    margin-bottom: 70px;
+  }
+  }
+  @media screen and (max-width: 992px){
+    .menu-nav-trigger{
+      display: none;
+    }
+    .right-nav{
+      margin-left: 20px;
+    }
+  }
+  @media screen and (max-width: 767px){
+   .container-page{
+     display: none;
+   }
+  }
