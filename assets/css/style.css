@@ -1740,3 +1740,20 @@ h5.team-name {
 .team-tole {
   font-size: 14px;
 }
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+  .menu-nav-trigger .menu-nav-icon { display: none; }
+  .right-nav { margin-right: 10px; }
+}
+
+@media screen and (max-width: 991px){
+  .right-nav{ display: none; }
+  .content-table ul li {
+    font-size: 13px;
+    line-height: 34px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .infoholder { display: none; }
+}

@@ -90,7 +90,7 @@
                     <!--text-->
                     <div class="col-md-12 col-lg-12 col-sm-12 col-12">
                         <div class="row">
-                            <div class="col-lg-3 col-md-3">
+                        <div class="col-md-6 col-lg-3">
                             <div class="service-block blast-wrapper mg-bt-0">
                                 <div class="icon-service bg-icon-2">
                                     <img src="assets/images/icons/icon3.svg" alt="">
@@ -101,7 +101,7 @@
                         </div>
 
                         <!-- service block-->
-                        <div class="col-lg-3 col-md-3">
+                        <div class="col-md-6 col-lg-3">
                             <div class="service-block">
                                 <div class="icon-service bg-icon-2">
                                     <img src="assets/images/icons/icon2.svg" alt="">
@@ -113,7 +113,7 @@
                         <!-- service block-->
 
                         <!-- service block-->
-                        <div class="col-lg-3 col-md-3">
+                        <div class="col-md-6 col-lg-3">
                             <div class="service-block">
                                 <div class="icon-service bg-icon-2">
                                     <img src="assets/images/icons/icon1.svg" alt="">
@@ -125,7 +125,7 @@
                         <!-- service block-->
 
                         <!-- service block-->
-                        <div class="col-lg-3 col-md-3">
+                        <div class="col-md-6 col-lg-3">
                             <div class="service-block">
                                 <div class="icon-service bg-icon-2">
                                     <img src="assets/images/icons/teamwork.svg" alt="">

@@ -102,14 +102,14 @@
             <div class="container">
                 <div class="row">
                     <!--text-->
-                    <div class="col-md-5 col-lg-5 col-sm-5 col-12">
-                        <h2>Building a business is hard. Getting paid shouldn't be.</h2>
+                    <div class="col-md-5 col-lg-5 col-sm-12 col-12">
+                        <h2 class="text-center">Building a business is hard. Getting paid shouldn't be.</h2>
                     </div>
                     <!--text-->
                     <!--number block-->
-                    <div class="col-md-6 col-lg-6 col-sm-6 offset-md-1 col-12">
+                    <div class="col-md-6 col-lg-6 col-sm-12 offset-md-1 col-12">
                         <div class="row">
-                            <div class="col-md-4 col-lg-4 col-sm-4 col-12">
+                            <div class="col-md-6 col-lg-4 col-sm-12 col-12">
                                 <div class="icon-text">
                                     <img src="assets/images/icons/favorites.svg" class="animate-icon" alt="">
                                     <h3>4.2+ Rating</h3>
@@ -117,7 +117,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-4 col-lg-4 col-sm-4 col-12">
+                            <div class="col-md-6 col-lg-4 col-sm-12 col-12">
                                 <div class="icon-text">
                                     <img src="assets/images/icons/secure-shield.svg" alt="">
                                     <h3>Secure</h3>
@@ -125,7 +125,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-4 col-lg-4 col-sm-4 col-12">
+                            <div class="col-md-6 col-lg-4 col-sm-12 col-12">
                                 <div class="icon-text">
                                     <img src="assets/images/icons/headphones.svg" alt="">
                                     <h3>Support</h3>
@@ -196,7 +196,7 @@
                         </div>
                         
                         <!-- service block-->
-                        <div class="col-lg-4 col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="service-block blast-wrapper mg-bt-0">
                                 <div class="icon-service bg-icon-1">
                                     <img src="assets/images/icons/dollar-sign.svg" alt="">
@@ -207,7 +207,7 @@
                         </div>
 
                         <!-- service block-->
-                        <div class="col-lg-4 col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="service-block">
                                 <div class="icon-service bg-icon-2">
                                     <img src="assets/images/icons/bars-chart.svg" alt="">
@@ -220,7 +220,7 @@
                         <!-- service block-->
 
                         <!-- service block-->
-                        <div class="col-lg-4 col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="service-block">
                                 <div class="icon-service bg-icon-3">
                                     <img src="assets/images/icons/teamwork.svg" alt="">
@@ -232,7 +232,7 @@
                         <!-- service block-->
 
                         <!-- service block-->
-                        <div class="col-lg-4 col-md-4 ">
+                        <div class="col-lg-4 col-md-6">
                             <div class="service-block blast-wrapper mg-bt-0">
                                 <div class="icon-service bg-icon-2">
                                     <img src="assets/images/icons/mobile.svg" alt="">
@@ -244,8 +244,8 @@
                         <!-- service block-->
 
                         <!-- service block-->
-                        <div class="col-lg-4 col-md-4 ">
-                            <div class="service-block   mg-bt-0">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="service-block mg-bt-0">
                                 <div class="icon-service bg-icon-4">
                                     <img src="assets/images/icons/cart.svg" alt="">
                                 </div>

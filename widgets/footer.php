@@ -7,7 +7,7 @@
                     <div class="footer-top  clearfix ">
                         <div class="footer-bottom-content clearfix ">
                             <div class="row">
-                                <div class="col-lg-4 col-md-4">
+                                <div class="col-lg-4 col-md-12">
                                     <div class="content-footer">
                                         <div class="logo-footer ">
                                             <img src="assets/images/logo.png" alt="">
@@ -20,7 +20,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-lg-2 col-md-2">
+                                <div class="col-lg-2 col-md-6">
                                     <div class="content-footer">
                                         <h5>Quick Menu</h5>
                                         <ul class="list-menu ">
@@ -36,7 +36,7 @@
 
                                 </div>
 
-                                <div class="col-lg-2 col-md-2">
+                                <div class="col-lg-2 col-md-6">
                                     <div class="content-footer">
 
                                         <h5>Other Links</h5>
@@ -51,7 +51,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-lg-3 col-md-3">
+                                <div class="col-lg-3 col-md-12">
                                     <div class="newsletter-block ">
                                         <img src="assets/images/icons/email-1.svg" alt="">
                                         <h5>Subscribe to Newsletter</h5>

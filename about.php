@@ -158,22 +158,22 @@
 
                         <div class="col-lg-12 col-md-12 col-12">
                             <div class="row">
-                                <div class="col-md-3">
+                                <div class="col-md-6 col-lg-3 col-sm-12">
                                     <img src="./assets/images/team/team1.jpg" class="team-icon" alt="">
                                     <h5 class="team-name">Precious Tom</h5>
                                     <p class="team-tole">CEO, Co founder</p>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-6 col-lg-3 col-sm-12">
                                     <img src="./assets/images/team/team2.jpg" class="team-icon" alt="">
                                     <h5 class="team-name">Mercy Udoh</h5>
                                     <p class="team-tole">CAO, Co founder</p>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-6 col-lg-3 col-sm-12">
                                     <img src="./assets/images/team/team3.jpg" class="team-icon" alt="">
                                     <h5 class="team-name">ImohdeAndre Anselem</h5>
                                     <p class="team-tole">CMO, Business</p>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-6 col-lg-3 col-sm-12">
                                     <img src="./assets/images/team/team4.jpg" class="team-icon" alt="">
                                     <h5 class="team-name">Kumar Chaitanya</h5>
                                     <p class="team-tole">Engineering</p>
