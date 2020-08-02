@@ -62,15 +62,15 @@
         <!--Header-->
 
         <!--Begin Hero Section-->
-        <section id="home" class="bg-color-2">
-            <div class="container-page  hero">
+        <section id="home" class="bg-color-2" style="background-image: url('./assets/images/pattern_landing-749b136ca10981b2137fcc02e6f0ce59.jpg');background-size: cover;background-position: right;">
+            <div class="container-page hero">
                 <!--container-->
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 col-xs-12 col-sm-12 col-12">
                             <!--text-->
                             <div class="hero-text text-center">
-                                <h1 class="text-white">Introducing the Scrow API</h1>
+                                <h1 class="text-white">Introducing Scrow API</h1>
                                 <p class="text-white">Explore our guides and examples to integrate Scrow.</p>
                                 <a href="./#" class="icobutton icobutton-arrow btn-secttion"><img src="assets/images/icons/arrow.svg" class="hand" alt=""></a>
                             </div>
@@ -92,8 +92,8 @@
                         <div class="row">
                             <div class="col-lg-3 col-md-3">
                             <div class="service-block blast-wrapper mg-bt-0">
-                                <div class="icon-service bg-icon-1">
-                                    <img src="assets/images/icons/dollar-sign.svg" alt="">
+                                <div class="icon-service bg-icon-2">
+                                    <img src="assets/images/icons/icon3.svg" alt="">
                                 </div>
                                 <h3>Sandbox account</h3>
                                 <p>Test your integrations before going live.</p>
@@ -104,7 +104,7 @@
                         <div class="col-lg-3 col-md-3">
                             <div class="service-block">
                                 <div class="icon-service bg-icon-2">
-                                    <img src="assets/images/icons/bars-chart.svg" alt="">
+                                    <img src="assets/images/icons/icon2.svg" alt="">
                                 </div>
                                 <h3>API documentation</h3>
                                 <p>Learn how to implement and make the most of our API.</p>
@@ -115,8 +115,8 @@
                         <!-- service block-->
                         <div class="col-lg-3 col-md-3">
                             <div class="service-block">
-                                <div class="icon-service bg-icon-3">
-                                    <img src="assets/images/icons/teamwork.svg" alt="">
+                                <div class="icon-service bg-icon-2">
+                                    <img src="assets/images/icons/icon1.svg" alt="">
                                 </div>
                                 <h3>Customer support</h3>
                                 <p>We're here to help. Get in touch with any questions.</p>
@@ -127,7 +127,7 @@
                         <!-- service block-->
                         <div class="col-lg-3 col-md-3">
                             <div class="service-block">
-                                <div class="icon-service bg-icon-3">
+                                <div class="icon-service bg-icon-2">
                                     <img src="assets/images/icons/teamwork.svg" alt="">
                                 </div>
                                 <h3>API tokens</h3>

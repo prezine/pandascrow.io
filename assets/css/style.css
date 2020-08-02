@@ -149,8 +149,14 @@ hr.hr {
 .color-white {
   color: #fff !important;
 }
+.font-slim { 
+  font-weight: 100; 
+}
 .font-20{
   font-size: 20px!important;
+}
+.font-24{
+  font-size: 24px!important;
 }
 .color-black {
   color: #222;
@@ -737,6 +743,35 @@ Hero
   font-weight: 100;
 }
 
+/*-- hero 2 --*/
+
+.hero-text2 {
+  position:  relative;
+  z-index: 999;
+  text-align: left;
+  padding-top: 140px;
+  padding-bottom: 60px;
+}
+
+.hero-text2 h1 {
+  font-size: 60px;
+  color: #000;
+  color: #080a57;
+  line-height: 65px;
+  font-weight: 800;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.hero-text2 p {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #82858b;
+  line-height: 35px;
+  font-weight: 100;
+}
+
 .quote-form .form-control{
   width: 60%;
   height: 52px;
@@ -866,6 +901,13 @@ About
   color:#82858b;
   font-weight: 500;
 }
+
+.content-text h4{
+  font-size: 36px;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+
 .icon-block img {
   width: 50px;
   margin-bottom: 25px;
@@ -984,8 +1026,13 @@ Features
   line-height: 46px;
   font-weight: 700;
 }
-
-
+.title-h3 {
+  font-size: 24px;
+  color: #000;
+  color: #080a57;
+  line-height: 40px;
+  font-weight: 700;
+}
 p.font-p {
   color: #637282;
   font-size: 16px;
@@ -1677,8 +1724,22 @@ footer p.sucess-message {
   background-color: #E4F6FF;
   border-radius: 4px;
 }
+p.info-text { display:inline-table; font-size:12px; margin-top: 2px;}
+.team-icon {
+  display: inline-table;
+  height: 150px;
+  border-radius: 50%;
+}
+h5.team-name {
+  padding-top: 20px;
+  margin-bottom: 0;
+  color: #080B56;
+  font-size: 19px;
+}
+.team-tole {
+  font-size: 14px;
+}
 .hide { display: none; }
-
 @media screen and (max-width: 991px){
   .right-nav{
     display: none;
@@ -1699,4 +1760,4 @@ footer p.sucess-message {
    .container-page{
      display: none;
    }
-  }
+}
