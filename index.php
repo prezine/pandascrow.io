@@ -72,7 +72,7 @@
                             <!--text-->
                             <div class="hero-text">
                                 <h1>Modern Escrow System for Africa</h1>
-                                <p>Stay safe, transparent & secure with scrow, protect yourself from fraud over anonymous transactions</p>
+                                <p>Stay safe, transparent & secure with scrow. Protect yourself from fraud over anonymous transactions.</p>
                                 <div class="quote-form">
                                     <input type="text" name="email" class="form-control" placeholder="E-mail Adress">
                                     <button type="submit" class="btn btn-form">Get Started</button>
@@ -81,13 +81,8 @@
                             </div>
                             <!--text-->
                         </div>
-                        <div class="col-md-6 col-xs-6 col-sm-6 col-12">
-                            <!-- slider image -->
-                            <div class="slider-image text-right">
-                                <img src="assets/images/image1.png" alt="">
-                                <img src="assets/images/image2.png" alt="">
-                            </div>
-                            <!-- slider image -->
+                        <div class="col-md-6 col-xs-6 col-sm-6 col-12 text-center">
+                                <img src="assets/images/banner-image.png" class="banner-image">
                         </div>
                     </div>
                 </div>
@@ -154,22 +149,22 @@
                         <!--image-->
                         <!-- description text-->
                         <div class="col-lg-6 col-md-6 col-12 ">
-                            <h2 class="title-h2">Why choose Scrow</h2>
-                            <h3>Safe . Ease . Flexible</h3>
+                            <h2 class="title-h2">Why choose Scrow?</h2>
+                            <h3>Safe . Ease . Flexibility</h3>
                             <p class="font-p mg-tp-30 mg-bt-30">
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                                You don’t joke with your money, right?  Relax. We don’t either. Everything here is secure. And security doesn’t  mean that it must be complex. We've made this very easy for everyone to use. On top of that, we can accommodate your business, no matter how big it grows.
                             </p>
 
                             <ul class="list-text">
                                 <li><img src="assets/images/icons/padlock.svg" alt="">
-                                    <p>Secure transaction with 99.9% guarantee</p>
+                                    <p>Secure transactions with 99.9% guarantee</p>
                                 </li>
                                 <li><img src="assets/images/icons/credit-card.svg" alt="">
-                                    <p>Easily make payment</p>
+                                    <p>Easily make payments</p>
                                 </li>
 
                                 <li><img src="assets/images/icons/investment.svg" alt="">
-                                    <p>Almost free with very little cost</p>
+                                    <p>Almost free — with very little cost</p>
                                 </li>
                             </ul>
                         </div>
@@ -190,7 +185,7 @@
                         <div class="row-centered">
                             <div class="col-centered col-lg-7">
                                 <!--text-->
-                                <h2 class="title-h2 mg-bt-30">A wide choice of ways to process transactions online</h2>
+                                <h2 class="title-h2 mg-bt-30">A wide selection of ways to process transactions online</h2>
                                 <!--text-->
                             </div>
                         </div>
@@ -202,7 +197,7 @@
                                     <img src="assets/images/icons/dollar-sign.svg" alt="">
                                 </div>
                                 <h3>One-time Payment</h3>
-                                <p>A customized payment for that one client, with a unique pay url.</p>
+                                <p>A customized payment for that one client, with a unique pay URL</p>
                             </div>
                         </div>
 
@@ -213,7 +208,7 @@
                                     <img src="assets/images/icons/bars-chart.svg" alt="">
                                 </div>
                                 <h3>Milestone Payment</h3>
-                                <p>A Payment in fractions, with clearly define pay list binded by escrow.</p>
+                                <p>A Payment in fractions, with a clearly defined pay list bound by escrow.</p>
                             </div>
                         </div>
 
@@ -226,7 +221,7 @@
                                     <img src="assets/images/icons/teamwork.svg" alt="">
                                 </div>
                                 <h3>Crowd Payment</h3>
-                                <p>A Goal driven payment option, with a unique pay url, binded by escrow.</p>
+                                <p>A goal-driven payment option, with a unique pay URL, bund by escrow.</p>
                             </div>
                         </div>
                         <!-- service block-->
@@ -238,7 +233,7 @@
                                     <img src="assets/images/icons/mobile.svg" alt="">
                                 </div>
                                 <h3>POS Payment</h3>
-                                <p>Pay with mobile scan QR, efficient for POS services, not binded by escrow</p>
+                                <p>Pay with mobile, scan QR, efficient for POS services, not bound by escrow</p>
                             </div>
                         </div>
                         <!-- service block-->
@@ -250,7 +245,7 @@
                                     <img src="assets/images/icons/cart.svg" alt="">
                                 </div>
                                 <h3>Product Pay</h3>
-                                <p>An extended payment from scrow mini-store, from unique generic payurl per product</p>
+                                <p>An advanced payment from Scrow mini-store, for a unique payment URL per product</p>
                             </div>
                         </div>
                         <!-- service block-->
@@ -319,11 +314,11 @@
                                                         </div>
 
                                                         <div class="col-sm-12 col-md-6 col-lg-6 bg-color padd-20 infoholder content-table">
-                                                            <h5>This calculator estimate the total fees associated with your transaction.</h5>
+                                                            <h5>This calculator estimates the total fees associated with your transaction.</h5>
                                                             <p>Scrow fee is calculated from:</p>
                                                             <ul>
-                                                                <li>how long you keep the money in scrow</li>
-                                                                <li>the coountry you're transacting from</li>
+                                                                <li>how long you keep the money in Scrow</li>
+                                                                <li>the country you're transacting from</li>
                                                                 <li>the amount involved</li>
                                                             </ul>
                                                         </div>
@@ -354,10 +349,10 @@
                                                         </div>
 
                                                         <div class="col-sm-12 col-md-6 col-lg-6 bg-color padd-20 infoholder content-table">
-                                                            <h5>This calculator estimate the total fees associated with your withdrawal.</h5>
+                                                            <h5>This calculator estimates the total fees associated with your withdrawal.</h5>
                                                             <p>Scrow fee is calculated from:</p>
                                                             <ul>
-                                                                <li>the coountry you're transacting from</li>
+                                                                <li>the country you're transacting from</li>
                                                                 <li>the amount involved</li>
                                                             </ul>
                                                         </div>
@@ -388,9 +383,9 @@
                     <div class="row">
                         <div class="row-centered">
                             <div class="col-centered col-lg-7 col-md-7">
-                                <h2 class="title-h2">Customers Testimony</h2>
+                                <h2 class="title-h2">Customers' Testimonies</h2>
                                 <p class="font-p mg-tp-30 mg-bt-30">
-                                    We stay true to our promise, making sure every transaction is free from fraud, here's what few our loyal customers think of Scrow.
+                                    We stay true to our promise, making sure every transaction is free from fraud. Here's what our loyal customers think of Scrow.
                                 </p>
 
                                 <div class="testimonial-slider">

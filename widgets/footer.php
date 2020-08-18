@@ -14,7 +14,7 @@
                                         </div>
                                         <div class="text-footer ">
                                             <p>
-                                                Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad tempor incididunt ut labore et dolore magna aliqua. 
+                                                Delivering secure, fast and reliable financial services to African businesses and eliminating fraud from online transactions using escrow technology.
                                             </p>
                                         </div>
                                     </div>

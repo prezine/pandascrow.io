@@ -62,7 +62,7 @@
         <!--Header-->
 
         <!--Begin Hero Section-->
-        <section id="home" class="bg-color-2" style="background-image: url('./assets/images/pattern_landing-749b136ca10981b2137fcc02e6f0ce59.jpg');background-size: cover;background-position: right;">
+        <section id="home" class="bg-color-2" style="background-image:url('./assets/images/backgroun.svg');background-repeat:no-repeat;background-size:cover;background-position:50%;">
             <div class="container-page hero">
                 <!--container-->
                 <div class="container">
@@ -118,7 +118,7 @@
                                 <div class="icon-service bg-icon-2">
                                     <img src="assets/images/icons/icon1.svg" alt="">
                                 </div>
-                                <h3>Customer support</h3>
+                                <h3>Developers support</h3>
                                 <p>We're here to help. Get in touch with any questions.</p>
                             </div>
                         </div>
@@ -160,16 +160,21 @@
                         <!--image-->
                         <!-- description text-->
                         <div class="col-lg-6 col-md-6 col-12 ">
-                            <h2 class="title-h2">Scrow for business</h2>
-                            <h3>Speed . Easy . Secure</h3>
+                            <h4 class="title-h2">Delivering amazing developer experiences through thoroughly—documented APIs</h4>
+                            <h3>Secure . Fast . Stable</h3>
                             
                             <p class="font-p mg-tp-30 mg-bt-30">
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                                APIs are largely about code. But they don’t always have to be complex. Our APIs are easy to use, and our documentation is very clear and easy to understand. No developer wants their app to run slowly because of external APIs. It's super-fast on our end, and very secure too.
                             </p>
 
                             <p class="font-p mg-tp-30">
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.
+                                Building a simple project? You can implement our payment gateway in one night. Building enterprise-grade systems? We’ve got you covered too.
                             </p>
+
+                            <p class="font-p mg-tp-30">
+                                From simple checkouts, to split payments, donation collections, our APIs are thoroughly written in an easy-to-understand manner, reducing time spent on testing. And our sandbox simulates a real production environment, allowing you to see just how things work in the real world.
+                            </p>
+
                         </div>
                         <!-- description text-->
                     </div>
@@ -186,7 +191,7 @@
                     <div class="col-md-12 col-lg-12 col-sm-12 col-12 wow fadeInRight">
                         <div class="padd-40 text-center">
                             <h2 class="title-h2 color-white">Integrate Scrow API</h2>
-                            <p class="color-white font-p mg-tp-30 mg-bt-30 font-20">Supported by PHP, JavaScript, &amp; Python, Scrow API is easy to integrate</p>
+                            <p class="color-white font-p mg-tp-30 mg-bt-30 font-20">Offering support for PHP, JavaScript, &amp; Python, Scrow API is easy to use.</p>
                             <a href="./" class="btn btn-white">Get Started</a>
                         </div>
                     </div>

@@ -72,7 +72,7 @@
                             <div class="hero-text2 text-center col-md-8 offset-md-2">
                                 <h1 class="text-white">About Scrow</h1>
                                 <p class="text-white">
-                                    Scrow is a technology company solving payments problems for ambitious businesses. Our mission is to help businesses in Africa become safe, envied, and trusted.
+                                    Scrow is a technology company that solves payment problems for ambitious businesses. Our mission is to provide African businesses with safety, ease and flexibility when carrying out transactions online.
                                 </p>
                             </div>
                             <!--text-->
@@ -124,15 +124,15 @@
                             <h4 class="title-h2">A fraud-free haven for every transaction in Africa</h4>
                             
                             <p class="font-p mg-tp-30 mg-bt-30">
-                                Scrow is a financial technology, built on escrow technology to help Africa’s best businesses grow - from new startups, to market leaders in the commerce industry and beyond.
+                                Scrow is a payments solutions platform built on escrow technology to help Africa’s best businesses grow - from new startups, to market leaders in the commerce industry and beyond.
                             </p>
 
                             <p class="font-p mg-tp-30">
-                                We pride it on ourselves to making transactions between two or more parties easy, yet flexible, for businesses to accept secure payments from multiple local and global payment channels, and then we provide tools to help you retain existing customers, and acquire new ones.
+                                We take pride in interfacing between buyers and sellers, ensuring safety and increasing trust, thereby contributing to commerce growth in Africa. We make transactions safe and flexible, offering several options and tools for businesses to boost customer acquisition and maintain customer retainership.
                             </p>
 
                             <p class="font-p mg-tp-30">
-                                As makers and business owners ourselves, we’re inspired by a vision of millions of exceptional businesses across the continent who’re profitable, envied, and loved. With a believe that in our lifetime, African businesses would go toe to toe with best companies in the globe, This is the reason we strive to be the stepping stone every business needs to thrive, every day.
+                                As business owners, and as Africans ourselves, we are driven by the passion and vision of businesses across Africa, and we want to contribute to the growth of online businesses across the continent.
                             </p>
                         </div>
                         <!-- description text-->
@@ -152,7 +152,7 @@
                         <div class="col-lg-8 col-md-8 offset-md-2 col-12 pb-5">
                             <h4 class="title-h2">Meet the game changers</h4>
                             <p class="mg-tp-30 mg-bt-30 font-20 font-slim">
-                                We're a diverse, close-knit team on an adventure of making the world a fraud-free haven.
+                                We're a diverse, close-knit team on an adventure of making e-commerce a fraud-free haven.
                             </p>
                         </div>
 
@@ -177,6 +177,11 @@
                                     <img src="./assets/images/team/team4.jpg" class="team-icon" alt="">
                                     <h5 class="team-name">Kumar Chaitanya</h5>
                                     <p class="team-tole">Engineering</p>
+                                </div>
+                                <div class="col-md-6 col-lg-3 col-sm-12">
+                                    <img src="./assets/images/team/team6.jpg" class="team-icon" alt="">
+                                    <h5 class="team-name">Chinoms Ugwuanya</h5>
+                                    <p class="team-tole">Product</p>
                                 </div>
                             </div>
                         </div>
