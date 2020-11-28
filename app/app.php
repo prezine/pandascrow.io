@@ -166,11 +166,11 @@
 
     defined('DATABASE_HOST')    OR define('DATABASE_HOST', 'localhost');
 
-    defined('DATABASE_NAME')    OR define('DATABASE_NAME', 'aqquypdh_coyate');
+    defined('DATABASE_NAME')    OR define('DATABASE_NAME', 'aqquypdh_circlepanda');
 
-    defined('DATABASE_USER')    OR define('DATABASE_USER', 'aqquypdh_coyate_admin');
+    defined('DATABASE_USER')    OR define('DATABASE_USER', 'aqquypdh_panda');
     
-    defined('DATABASE_CODE')    OR define('DATABASE_CODE', '%yFtRCcfM$g{');
+    defined('DATABASE_CODE')    OR define('DATABASE_CODE', 'sEO3vZ_WjTTV');
     
     defined('DATABASE_PORT')    OR define('DATABASE_PORT', 3306);
 

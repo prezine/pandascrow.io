@@ -6,8 +6,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Scrow - A place for higher humans">
-    <title>Developers with Scrow</title>
+    <meta name="description" content="Scrow - We welcome all Hello's">
+    <title>Contact Us</title>
 
     <!--External Stylesheets css-->
 
@@ -27,6 +27,15 @@
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
     <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
     <script src="assets/js/modernizr.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L6E52DCJYT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-L6E52DCJYT');
+    </script>
     <!--[if lt IE 9]>
   <script src="assets/js/html5shiv.min.js"></script>
   <script src="assets/js/respond.min.js"></script>
@@ -62,16 +71,16 @@
         <!--Header-->
 
         <!--Begin Hero Section-->
-        <section id="home" class="bg-color-2">
-            <div class="container-page  hero">
+        <section id="home" class="bg-color-4" style="background-image: url(assets/images/contact-bg2.svg);background-position:bottom;background-size:cover;">
+            <div class="container-page hero">
                 <!--container-->
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 col-xs-12 col-sm-12 col-12">
                             <!--text-->
                             <div class="hero-text text-center">
-                                <h1 class="text-white">We’re happy to help!</h1>
-                                <p class="text-white">Need a quick answer? Enter your question below for instant responses.</p>
+                                <h1 class="text-white t-shadow">We’re happy to help!</h1>
+                                <p class="text-white t-shadow">Need a quick answer? Enter your question below for instant responses.</p>
                                 <!--<a href="./#" class="icobutton icobutton-arrow btn-secttion"><img src="assets/images/icons/arrow.svg" class="hand" alt=""></a>-->
                                  <!-- table -->
                             <div class="table-price clearfix col-md-12 col-lg-12 wow fadeInUpBig">
@@ -144,7 +153,7 @@
                                     <img src="assets/images/icons/map.svg" alt="">
                                 </div>
                                 <div class="content-contact">
-                                    <h3>Adress</h3>
+                                    <h3>Address</h3>
                                     <p>41 Woji Road, GRA, Port Harcourt. NG 500027</p>
                                 </div>
                             </div>

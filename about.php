@@ -27,6 +27,15 @@
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
     <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
     <script src="assets/js/modernizr.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L6E52DCJYT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-L6E52DCJYT');
+    </script>
     <!--[if lt IE 9]>
   <script src="assets/js/html5shiv.min.js"></script>
   <script src="assets/js/respond.min.js"></script>
@@ -62,7 +71,7 @@
         <!--Header-->
 
         <!--Begin Hero Section-->
-        <section id="home" class="bg-color-2">
+        <section id="home" class="bg-color-5" style="background-image: url(assets/images/contact-bg.svg); background-position:bottom;background-size:cover;">
             <div class="container-page hero">
                 <!--container-->
                 <div class="container">
@@ -115,7 +124,7 @@
                     <div class="row ">
                         <!-- image-->
                         <div class="col-lg-6 col-md-6 col-12 wow fadeInLeft">
-                            <img src="assets/images/image3.png" alt="">
+                            <img src="assets/images/201910211405225dadbb22cdc71.png" alt="">
                         </div>
 
                         <!--image-->
@@ -161,7 +170,7 @@
                                 <div class="col-md-6 col-lg-3 col-sm-12">
                                     <img src="./assets/images/team/team1.jpg" class="team-icon" alt="">
                                     <h5 class="team-name">Precious Tom</h5>
-                                    <p class="team-tole">CEO, Co founder</p>
+                                    <p class="team-tole">CEO, Founder</p>
                                 </div>
                                 <div class="col-md-6 col-lg-3 col-sm-12">
                                     <img src="./assets/images/team/team2.jpg" class="team-icon" alt="">

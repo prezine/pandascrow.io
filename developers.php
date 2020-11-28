@@ -27,6 +27,15 @@
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
     <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
     <script src="assets/js/modernizr.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L6E52DCJYT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-L6E52DCJYT');
+    </script>
     <!--[if lt IE 9]>
   <script src="assets/js/html5shiv.min.js"></script>
   <script src="assets/js/respond.min.js"></script>
@@ -62,7 +71,7 @@
         <!--Header-->
 
         <!--Begin Hero Section-->
-        <section id="home" class="bg-color-2" style="background-image:url('./assets/images/backgroun.svg');background-repeat:no-repeat;background-size:cover;background-position:50%;">
+        <section id="home" class="bg-color-3" style="background-image:url('./assets/images/backgroun.svg');background-position:bottom;background-size:cover;">
             <div class="container-page hero">
                 <!--container-->
                 <div class="container">
@@ -70,8 +79,8 @@
                         <div class="col-md-12 col-xs-12 col-sm-12 col-12">
                             <!--text-->
                             <div class="hero-text text-center">
-                                <h1 class="text-white">Introducing Scrow API</h1>
-                                <p class="text-white">Explore our guides and examples to integrate Scrow.</p>
+                                <h1 class="text-white t-shadow">Introducing Scrow API</h1>
+                                <p class="text-white t-shadow">Explore our guides and examples to integrate Scrow.</p>
                                 <a href="./#" class="icobutton icobutton-arrow btn-secttion"><img src="assets/images/icons/arrow.svg" class="hand" alt=""></a>
                             </div>
                             <!--text-->
@@ -83,7 +92,7 @@
         </section>
 
         <!-- about block colored-->
-        <section id="about-p" class="pd-tp-80 pd-bt-40 bg-color-3 about-text">
+        <section id="about-p" class="pd-tp-80 pd-bt-40 bg-color-0 about-text">
             <!--container-->
             <div class="container">
                 <div class="row">
@@ -128,7 +137,7 @@
                         <div class="col-md-6 col-lg-3">
                             <div class="service-block">
                                 <div class="icon-service bg-icon-2">
-                                    <img src="assets/images/icons/teamwork.svg" alt="">
+                                    <img src="assets/images/icons/api-token.svg" alt="">
                                 </div>
                                 <h3>API tokens</h3>
                                 <p>Easily create and manage your personal tokens.</p>
@@ -221,4 +230,9 @@
     <script src="assets/js/mo.min.js"></script>
     <!-- Main js -->
     <script src="assets/js/main.js"></script>
+    <script>
+        $(function () {
+          $('.crossfade').crossfade(options);
+        });
+    </script>
 </body>

@@ -6,7 +6,6 @@ class Form {
 			url: path,
 			data: data,
 			success: function(res) {
-				alert(JSON.stringify(res))
 				if (res == 200) {
 					$("#btnsend").attr("disabled", true).val("Subscribed");
 					$(".sucess-message").text('Way to go 🚀');
@@ -110,3 +109,72 @@ class Form {
 form = new Form();
 form.submit();
 form.contact();
+
+/* --------------------------------- */
+$(".quote-form").on('submit', function (e) {
+	e.preventDefault();
+	let mail = $('#mailid').val();
+	let btn = $('.btn-submit');
+	if (mail.split("@").length != 2) {
+		btn.attr("disabled", false).text('Get Started');
+		$(".errno").text('Uhmm! Email not right')
+	} else {
+		$.ajax({
+			type: 'POST',
+			dataType: 'JSON',
+			url: './app/newslater',
+			data: {
+				mail: mail
+			},
+			success: function(res) {
+				if (res == 200) {
+					btn.attr("disabled", true).text("Email Sent 🚀");
+					$(".errno").addClass('text-success').html("Awesome, way to go, we'd treat you more seriously &nbsp; 🚀")
+				} else {
+					btn.attr("disabled", false).text('Get Started');
+					$(".errno").addClass('text-danger').html('Oops, something went wrong &nbsp; ❌')
+				}
+				return false;
+			},
+			error: function (res) {
+				$(".errno").text('OMG! ❌ — '+ JSON.stringify(res));
+				return false;
+			}
+		});
+	}
+})
+
+/* ---------------------------------- */
+$("#contactscrow").on('submit', (e) => {
+	e.preventDefault();
+	$("#contactbtn").attr("disabled", true).text('Message sending 🚀');
+	let name = $("#name").val();
+	let email = $("#email").val();
+	let message = $("#message").val();
+	let btn = $('#contactbtn');
+	let contactdata = {
+		contactname: name,
+		contactemail: email,
+		contactmessage: message
+	}
+	$.ajax({
+		type: 'POST',
+		dataType: 'JSON',
+		url: './app/contact',
+		data: contactdata,
+		success: function(res) {
+			if (res == 200) {
+				btn.attr("disabled", true).text("Message sent");
+				$(".errno").addClass('text-success').html("Awesome, we've recieved your messaged, thank you for reaching out 🚀")
+			} else {
+				btn.attr("disabled", false).text('Send message');
+				$(".errno").addClass('text-danger').html('Oops, something went wrong &nbsp; ❌')
+			}
+			return false;
+		},
+		error: function (res) {
+			$(".errno").text('OMG! ❌ — '+ JSON.stringify(res));
+			return false;
+		}
+	});
+});

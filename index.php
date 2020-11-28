@@ -26,6 +26,15 @@
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
     <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
     <script src="assets/js/modernizr.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L6E52DCJYT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-L6E52DCJYT');
+    </script>
     <!--[if lt IE 9]>
   <script src="assets/js/html5shiv.min.js"></script>
   <script src="assets/js/respond.min.js"></script>
@@ -73,10 +82,11 @@
                             <div class="hero-text">
                                 <h1>Modern Escrow System for Africa</h1>
                                 <p>Stay safe, transparent & secure with scrow. Protect yourself from fraud over anonymous transactions.</p>
-                                <div class="quote-form">
-                                    <input type="text" name="email" class="form-control" placeholder="E-mail Adress">
-                                    <button type="submit" class="btn btn-form">Get Started</button>
-                                </div>
+                                <form class="quote-form" method="post">
+                                    <input type="text" name="email" id="mailid" class="form-control" placeholder="E-mail Adress">
+                                    <button type="submit" class="btn btn-form btn-submit">Get Started</button>
+                                    <div class="errno"></div>
+                                </form>
                                 <a href="./#" class="icobutton icobutton-arrow btn-secttion"><img src="assets/images/icons/arrow.svg" class="hand" alt=""></a>
                             </div>
                             <!--text-->
@@ -98,7 +108,7 @@
                 <div class="row">
                     <!--text-->
                     <div class="col-md-5 col-lg-5 col-sm-12 col-12">
-                        <h2 class="text-center">Building a business is hard. Getting paid shouldn't be.</h2>
+                        <h2 class="text-left">Building a business is hard. Getting paid shouldn't be.</h2>
                     </div>
                     <!--text-->
                     <!--number block-->
@@ -144,7 +154,7 @@
                     <div class="row ">
                         <!-- image-->
                         <div class="col-lg-6 col-md-6 col-12 wow fadeInLeft">
-                            <img src="assets/images/image3.png" alt="">
+                            <img src="assets/images/202008261308385f465ed658de1.png" alt="">
                         </div>
                         <!--image-->
                         <!-- description text-->
@@ -177,7 +187,7 @@
 
         <!--Features -->
 
-        <section id="features">
+        <section id="features" style="background-image: url(./assets/images/bg.svg);">
             <div class="padd-80">
                 <!--container-->
                 <div class="container">
@@ -221,7 +231,7 @@
                                     <img src="assets/images/icons/teamwork.svg" alt="">
                                 </div>
                                 <h3>Crowd Payment</h3>
-                                <p>A goal-driven payment option, with a unique pay URL, bund by escrow.</p>
+                                <p>A goal-driven payment option, with a unique pay URL, bound by escrow.</p>
                             </div>
                         </div>
                         <!-- service block-->
@@ -260,7 +270,7 @@
 
         <!--Pricing -->
 
-        <section id="video-features">
+        <section id="pricing">
 
             <div class="container-page padd-80 video-bloc">
                 <!--container-->
@@ -331,7 +341,7 @@
 
                                                             <div class="input-group mb-2">
                                                               <div class="input-group-prepend">
-                                                                <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">NGN</button>
+                                                                <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">NGN</button>
                                                                 <div class="dropdown-menu">
                                                                   <a class="dropdown-item" href="#">USD</a>
                                                                   <a class="dropdown-item" href="#">NGN</a>
@@ -395,7 +405,7 @@
                                         </div>
                                         <div class="item-inner">
                                             <p>
-                                                Nam libero tempore, cum soluta nobis est eligen di opt ios cumque nihil impedit quo minus id quo d maxime placeat facere possimus. Sed ut perspi ciatis unde omnis iste natus error sit </p>
+                                                Using Pandascrow, we’ve seen a significant increase in our transaction and we can onboard customers online much easier and faster. </p>
                                             <div class="rating">
                                                 <span class="icon_star"></span>
                                                 <span class="icon_star"></span>
@@ -405,7 +415,7 @@
                                             </div>
 
                                             <div class="avatar-info">
-                                                <h4>Kathleen Mills</h4>
+                                                <h4>Hakeem Olasupo</h4>
                                             </div>
                                         </div>
                                     </div>
@@ -417,7 +427,7 @@
 
                                         <div class="item-inner">
                                             <p>
-                                                Nam libero tempore, cum soluta nobis est eligen di opt ios cumque nihil impedit quo minus id quo d maxime placeat facere possimus. Sed ut perspi ciatis unde omnis iste natus error sit </p>
+                                                Scrow is the best. It was so simple to use and, access and my transaction were successful. Its definitely a 5 star for me, Scrow rocks!</p>
                                             <div class="rating">
                                                 <span class="icon_star"></span>
                                                 <span class="icon_star"></span>
@@ -427,7 +437,7 @@
                                             </div>
 
                                             <div class="avatar-info">
-                                                <h4>Tyler Bryant</h4>
+                                                <h4>Mercy Efeh</h4>
                                             </div>
                                         </div>
                                     </div>
@@ -448,7 +458,7 @@
                                                 <span class="icon_star"></span>
                                             </div>
                                             <div class="avatar-info">
-                                                <h4>Bruce Wong</h4>
+                                                <h4>Muna Mercy Johnson</h4>
                                             </div>
                                         </div>
                                     </div>
@@ -460,7 +470,7 @@
 
                                         <div class="item-inner">
                                             <p>
-                                                Nam libero tempore, cum soluta nobis est eligen di opt ios cumque nihil impedit quo minus id quo d maxime placeat facere possimus. Sed ut perspi ciatis unde omnis iste natus error sit </p>
+                                                My experience with Circlepanda remains invaluable. Security, Speed, convenience, and affordability. What else can one wish for? Escrow remains ever laser-focused and able to recognize, navigate through the potential land mines that could arise from this ever-changing field and, I found its expertise in payments, business strategy, and compliance to be right on target.</p>
 
                                             <div class="rating">
                                                 <span class="icon_star"></span>
@@ -470,7 +480,7 @@
                                                 <span class="icon_star"></span>
                                             </div>
                                             <div class="avatar-info">
-                                                <h4>Jhone Dhoe</h4>
+                                                <h4>Ernest Uzuondu</h4>
                                             </div>
 
                                         </div>
@@ -484,7 +494,7 @@
 
                                         <div class="item-inner">
                                             <p>
-                                                Nam libero tempore, cum soluta nobis est eligen di opt ios cumque nihil impedit quo minus id quo d maxime placeat facere possimus. Sed ut perspi ciatis unde omnis iste natus error sit </p>
+                                                You will agree with me that trust is hard to find on the internet. That narrative changed with Pandascrow, clients now find it easy to make payment for their orders because of the trust Pandascrow has brought into the payment system.  Thanks for all you do Pandascrow.</p>
 
                                             <div class="rating">
                                                 <span class="icon_star"></span>
@@ -494,7 +504,7 @@
                                                 <span class="icon_star"></span>
                                             </div>
                                             <div class="avatar-info">
-                                                <h4>Mark Thompsone</h4>
+                                                <h4>Ekii @ekiiclothing</h4>
                                             </div>
                                         </div>
                                     </div>
@@ -516,7 +526,7 @@
                                                 <span class="icon_star"></span>
                                             </div>
                                             <div class="avatar-info">
-                                                <h4>Max Harris</h4>
+                                                <h4>Gift Chris Wuche</h4>
                                             </div>
                                         </div>
                                     </div>
@@ -538,7 +548,7 @@
                                                 <span class="icon_star"></span>
                                             </div>
                                             <div class="avatar-info">
-                                                <h4>Lucy Kelly</h4>
+                                                <h4>Eseohe Asuelimen</h4>
                                             </div>
                                         </div>
                                     </div>
@@ -638,7 +648,7 @@
                         <div class="padd-40 text-center">
                             <h2 class="title-h2 color-white">Join millions on Scrow</h2>
                             <p class="color-white font-p mg-tp-30 mg-bt-30 font-20">Get started for free</p>
-                            <a href="./" class="btn btn-white">Let's go!</a>
+                            <a href="https://app.pandascrow.io/join" class="btn btn-white">Let's go!</a>
                         </div>
                     </div>
                 </div>
@@ -658,20 +668,11 @@
                                 <div class="item">
                                     <img src="assets/images/clients/logo1.png" class="img-responsive" title="Circlepanda">
                                 </div>
-                                <div class="item">
+                                <div class="item text-center">
                                     <img src="assets/images/clients/logo2.png" class="img-responsive" title="Chatbot">
                                 </div>
-                                <div class="item">
-                                    <img src="assets/images/clients/logo1.png" class="img-responsive" title="Circlepanda">
-                                </div>
-                                <div class="item">
-                                    <img src="assets/images/clients/logo2.png" class="img-responsive" title="Chatbot">
-                                </div>
-                                <div class="item">
-                                    <img src="assets/images/clients/logo1.png" class="img-responsive" title="Circlepanda">
-                                </div>
-                                <div class="item">
-                                    <img src="assets/images/clients/logo2.png" class="img-responsive" title="Chatbot">
+                                <div class="item text-center">
+                                    <img src="assets/images/clients/logo3.png" class="img-responsive" title="Farmsby">
                                 </div>
                             </div>
                         </div>
@@ -698,17 +699,18 @@
                             <div class="content-info">
                                 <form action="./#" id="contactscrow" method="post">
                                     <div class="form-group">
-                                        <input type="text" name="name" class="form-control" placeholder="Name">
+                                        <input type="text" name="name" id="name" class="form-control" placeholder="Name" required>
                                     </div>
                                     <div class="form-group">
-                                        <input type="email" name="email" class="form-control" placeholder="Email">
+                                        <input type="email" name="email" id="email" class="form-control" placeholder="Email" required>
                                     </div>
                                     <div class="form-group">
-                                        <textarea class="form-control" rows="4" cols="3" placeholder="Your message "></textarea>
+                                        <textarea class="form-control" id="message" rows="4" cols="3" placeholder="Your message" required></textarea>
                                     </div>
                                     <div class="form-group">
-                                        <button type="submit" class="btn btn-blue" id="contactbtn">Send message </button>
+                                        <button type="submit" class="btn btn-blue" id="contactbtn">Send message</button>
                                     </div>
+                                    <div class="errno"></div>
                                 </form>
                             </div>
                         </div>
@@ -719,7 +721,7 @@
                                     <img src="assets/images/icons/map.svg" alt="">
                                 </div>
                                 <div class="content-contact">
-                                    <h3>Adress</h3>
+                                    <h3>Address</h3>
                                     <p>41 Woji Road, GRA, Port Harcourt. NG 500027</p>
                                 </div>
                             </div>
@@ -760,7 +762,7 @@
     <!--Footer -->
     <!-- jQuery -->
     <script src="assets/js/jquery-3.3.1.min.js"></script>
-
+    <script src="assets/js/popper.min.js"></script>
     <!-- Bootstrap Plugins -->
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.easing.js"></script>

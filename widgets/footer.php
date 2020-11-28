@@ -24,12 +24,10 @@
                                     <div class="content-footer">
                                         <h5>Quick Menu</h5>
                                         <ul class="list-menu ">
-                                            <li><a href="./">About</a></li>
-                                            <li><a href="./">Solution</a></li>
-                                            <li><a href="./">Team</a></li>
-                                            <li> <a href="./">Career</a></li>
-                                            <li><a href="./">Contact</a></li>
-
+                                            <li><a href="./about">About</a></li>
+                                            <li><a href="./about">Solution</a></li>
+                                            <li><a href="./about">Team</a></li>
+                                            <li><a href="./contact">Contact</a></li>
                                         </ul>
 
                                     </div>
@@ -41,18 +39,17 @@
 
                                         <h5>Other Links</h5>
                                         <ul class="list-menu ">
-                                            <li><a href="./">Terms of use</a></li>
-                                            <li><a href="./">Privacy Policy</a></li>
-                                            <li><a href="./">Developer</a></li>
-                                            <li><a href="./">FAQ</a></li>
-                                            <li><a href="./">Support</a></li>
+                                            <li><a href="./#">Terms of use</a></li>
+                                            <li><a href="./#">Privacy Policy</a></li>
+                                            <li><a href="./#">Developer</a></li>  
+                                            <li><a href="./#">Support</a></li>
                                         </ul>
 
                                     </div>
                                 </div>
 
                                 <div class="col-lg-3 col-md-12">
-                                    <div class="newsletter-block ">
+                                    <div class="newsletter-block">
                                         <img src="assets/images/icons/email-1.svg" alt="">
                                         <h5>Subscribe to Newsletter</h5>
                                         <!-- Newsletter -->
