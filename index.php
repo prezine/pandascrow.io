@@ -449,7 +449,7 @@
 
                                         <div class="item-inner">
                                             <p>
-                                                Nam libero tempore, cum soluta nobis est eligen di opt ios cumque nihil impedit quo minus id quo d maxime placeat facere possimus. Sed ut perspi ciatis unde omnis iste natus error sit </p>
+                                                Scrow is user friendly and very accessible, I haven't experienced any hitch ups yet.</p>
                                             <div class="rating">
                                                 <span class="icon_star"></span>
                                                 <span class="icon_star"></span>
@@ -516,7 +516,7 @@
 
                                         <div class="item-inner">
                                             <p>
-                                                Nam libero tempore, cum soluta nobis est eligen di opt ios cumque nihil impedit quo minus id quo d maxime placeat facere possimus. Sed ut perspi ciatis unde omnis iste natus error sit </p>
+                                                I don't have to beg for trust, my clients when I mention to them I receive payment with Pandascrow, feel safe all ready to get started, this has increased our sales up to 45% </p>
 
                                             <div class="rating">
                                                 <span class="icon_star"></span>
@@ -538,7 +538,7 @@
 
                                         <div class="item-inner">
                                             <p>
-                                                Nam libero tempore, cum soluta nobis est eligen di opt ios cumque nihil impedit quo minus id quo d maxime placeat facere possimus. Sed ut perspi ciatis unde omnis iste natus error sit </p>
+                                                You wanna know how we grew from 1 to 50%? Pandascrow is the secret. I love you guys. </p>
 
                                             <div class="rating">
                                                 <span class="icon_star"></span>
@@ -560,7 +560,7 @@
 
                                         <div class="item-inner">
                                             <p>
-                                                Nam libero tempore, cum soluta nobis est eligen di opt ios cumque nihil impedit quo minus id quo d maxime placeat facere possimus. Sed ut perspi ciatis unde omnis iste natus error sit </p>
+                                                In the Agricultural sector, trust is an important sector of growth between inter-trade between farmers and merchant/vendors/businesses. We strive to lead the pack in the industry. We couldn't have done it better without pandascrow.</p>
 
                                             <div class="rating">
                                                 <span class="icon_star"></span>
@@ -570,7 +570,7 @@
                                                 <span class="icon_star"></span>
                                             </div>
                                             <div class="avatar-info">
-                                                <h4>Ethan Nguyen</h4>
+                                                <h4>Aquila Kalagbor</h4>
                                             </div>
                                         </div>
                                     </div>
@@ -582,7 +582,7 @@
 
                                         <div class="item-inner">
                                             <p>
-                                                Nam libero tempore, cum soluta nobis est eligen di opt ios cumque nihil impedit quo minus id quo d maxime placeat facere possimus. Sed ut perspi ciatis unde omnis iste natus error sit </p>
+                                                Gobble 'n' Gulp owes a lot to Pandascrow for existing just at the right time to help my business gain credibility, several times safe transaction has been recorded ever since I went from traditional payment acceptance to digital escrow payment acceptance. </p>
 
                                             <div class="rating">
                                                 <span class="icon_star"></span>
@@ -592,7 +592,7 @@
                                                 <span class="icon_star"></span>
                                             </div>
                                             <div class="avatar-info">
-                                                <h4>Jack Martin</h4>
+                                                <h4>Precious Ben</h4>
                                             </div>
                                         </div>
                                     </div>

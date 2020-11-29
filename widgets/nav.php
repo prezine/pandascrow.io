@@ -7,7 +7,7 @@
                     <li><a href="./about" class="selected section-scroll">About</a></li>
                     <li><a href="./#features" class="section-scroll">Solution</a></li>
                     <li><a href="./developers" class="section-scroll">Developers</a></li>
-                    <li><a href="./#pricing" class="section-scroll">Pricing</a></li>
+                    <li><a href="./pricing" class="section-scroll">Pricing</a></li>
                     <li><a href="./contact" class="section-scroll">Contact</a></li>
                 </ul>
             </nav>
