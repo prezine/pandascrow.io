@@ -14,7 +14,7 @@
                                         </div>
                                         <div class="text-footer ">
                                             <p>
-                                                Delivering secure, fast and reliable financial services to African businesses and eliminating fraud from online transactions using escrow technology.
+                                                Delivering secure, fast, and reliable financial services to African businesses and eliminating fraud from online transactions using escrow technology.
                                             </p>
                                         </div>
                                     </div>
@@ -39,9 +39,9 @@
 
                                         <h5>Other Links</h5>
                                         <ul class="list-menu ">
-                                            <li><a href="./#">Terms of use</a></li>
-                                            <li><a href="./#">Privacy Policy</a></li>
-                                            <li><a href="./#">Developer</a></li>  
+                                            <li><a href="./terms">Terms of use</a></li>
+                                            <li><a href="./policy">Privacy Policy</a></li>
+                                            <li><a href="./developers">Developer</a></li>  
                                             <li><a href="./#">Support</a></li>
                                         </ul>
 

@@ -3,12 +3,26 @@
 
 <head>
     <!--Metas-->
+    <title>Contact Pandascrow</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Scrow - We welcome all Hello's">
-    <title>Contact Us</title>
+    <meta name="title" content="Contact Pandascrow">
+    <meta name="description" content="Need a quick answer? Enter your question below for instant responses.">
 
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pandascrow.io/contact">
+    <meta property="og:title" content="Contact Pandascrow">
+    <meta property="og:description" content="Need a quick answer? Enter your question below for instant responses.">
+    <meta property="og:image" content="./assets/images/pandascrow.io cover.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://pandascrow.io/contact">
+    <meta property="twitter:title" content="Contact Pandascrow">
+    <meta property="twitter:description" content="Need a quick answer? Enter your question below for instant responses.">
+    <meta property="twitter:image" content="./assets/images/pandascrow.io cover.png">
     <!--External Stylesheets css-->
 
     <!-- Bootstrap -->
@@ -36,6 +50,21 @@
 
       gtag('config', 'G-L6E52DCJYT');
     </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": "https://pandascrow.io/contact",
+      "logo": "assets/images/logo.png"
+    }
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MQL9L4N');</script>
+    <!-- End Google Tag Manager -->
     <!--[if lt IE 9]>
   <script src="assets/js/html5shiv.min.js"></script>
   <script src="assets/js/respond.min.js"></script>
@@ -43,6 +72,10 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar-default" data-offset="100">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQL9L4N"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!-- Page Preloader -->
     <div id="loading-page">
         <div id="loading-center-page">

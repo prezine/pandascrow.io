@@ -41,7 +41,7 @@ class Pricing {
 		t = $("#wtotalamt");
 		// realtime calculator
 		a.text(this.currencyFormat(Number(amt)));
-		s.text(this.currencyFormat(this.perc(Number(amt), 1.0)))
+		s.text(this.currencyFormat(this.perc(Number(amt), 1.5)))
 		
 		var y, z;
 		y = Number(amt)

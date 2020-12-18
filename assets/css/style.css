@@ -386,6 +386,7 @@ h6 {
   margin-bottom: 10px;
   line-height: 40px;
   font-weight: 500;
+  color: #080B57;
 }
 
 h1 span,
@@ -1246,8 +1247,7 @@ About
   margin-bottom: 25px;
 }
 
-.content-text  h3{
-  color:#82858b;
+.content-text h3{
   font-weight: 500;
 }
 
@@ -1417,7 +1417,7 @@ p.font-p {
   position: relative;
 }
 
-
+.margin-auto { margin: 0 auto; }
 
 .ply-btn img {
   width: 80px;

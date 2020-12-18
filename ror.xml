@@ -6,8 +6,8 @@
 
 <item>
      <link>https://pandascrow.io/</link>
-     <title>Scrow - Modern Escrow System for Africa</title>
-     <description>Scrow - Modern Escrow System for Africa</description>
+     <title>Pandascrow - Modern Escrow System for Africa</title>
+     <description>Pandascrow - Modern Escrow System for Africa</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>0</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
@@ -22,16 +22,24 @@
 </item>
 <item>
      <link>https://pandascrow.io/developers</link>
-     <title>Developers with Scrow</title>
-     <description>Scrow - A place for higher humans</description>
+     <title>Developers with Pandascrow</title>
+     <description>Explore our guides and examples to integrate Scrow.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://pandascrow.io/pricing</link>
+     <title>Pandascrow Pricing</title>
+     <description>Learn more about Pandascrow simple, fair pricing</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
      <link>https://pandascrow.io/contact</link>
-     <title>Contact Us</title>
-     <description>Scrow - We welcome all Hello's</description>
+     <title>Contact Pandascrow</title>
+     <description>Need a quick answer? Enter your question below for instant responses.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>

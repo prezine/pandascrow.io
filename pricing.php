@@ -3,11 +3,25 @@
 
 <head>
     <!--Metas-->
+    <title>Pandascrow Pricing</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="About Scrow">
-    <title>Scrow Pricing</title>
+    <meta name="description" content="Learn more about Pandascrow simple, fair pricing">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pandascrow.io/pricing">
+    <meta property="og:title" content="Pandascrow Pricing">
+    <meta property="og:description" content="Learn more about Pandascrow simple, fair pricing">
+    <meta property="og:image" content="./assets/images/pandascrow.io cover.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://pandascrow.io/pricing">
+    <meta property="twitter:title" content="Pandascrow Pricing">
+    <meta property="twitter:description" content="Learn more about Pandascrow simple, fair pricing">
+    <meta property="twitter:image" content="./assets/images/pandascrow.io cover.png">
 
     <!--External Stylesheets css-->
 
@@ -36,6 +50,61 @@
 
       gtag('config', 'G-L6E52DCJYT');
     </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": "https://pandascrow.io/pricing",
+      "logo": "assets/images/logo.png"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How long does it take for me to get my money?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Your money is automatically settled to your bank account the next working day (T+1). So payments received on Monday, for example, will be settled on Tuesday."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Can scrow be integrated into other platforms?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It's currently not possible, but we have a team of devoted developers working hard in making sure this is possible in coming months ahead."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Is it possible to get settled in USD?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No! You can only get settled in Local Currency"
+        }
+      }, {
+        "@type": "Question",
+        "name": "Do you offer transaction volume discounts?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yup! Merchants who process large volumes enjoy a discount on the transaction fee."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Are you able to offer flat rate pricing for schools?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text":"Yup! We offer flat rate pricing to accredited educational institutions. Kindly contact us at hello@pandascrow.io to learn more about flat rate pricing for schools."
+        }
+      }]
+    }
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MQL9L4N');</script>
+    <!-- End Google Tag Manager -->
     <!--[if lt IE 9]>
   <script src="assets/js/html5shiv.min.js"></script>
   <script src="assets/js/respond.min.js"></script>
@@ -43,6 +112,10 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar-default" data-offset="100">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQL9L4N"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!-- Page Preloader -->
     <div id="loading-page">
         <div id="loading-center-page">
