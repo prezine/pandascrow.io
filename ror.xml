@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
 <channel>
-  <title>ROR Sitemap for https://pandascrow.io/</title>
-  <link>https://pandascrow.io/</link>
+  <title>ROR Sitemap for http://pandascrow.io/</title>
+  <link>http://pandascrow.io/</link>
 
 <item>
      <link>https://pandascrow.io/</link>
@@ -40,6 +40,22 @@
      <link>https://pandascrow.io/contact</link>
      <title>Contact Pandascrow</title>
      <description>Need a quick answer? Enter your question below for instant responses.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://pandascrow.io/terms</link>
+     <title>Terms of Service</title>
+     <description>Learn more about Pandascrow simple, fair pricing</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://pandascrow.io/policy</link>
+     <title>Pandascrow Policy</title>
+     <description>Learn more about Pandascrow simple, fair pricing</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>

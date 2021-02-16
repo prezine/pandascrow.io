@@ -3,3 +3,5 @@ https://pandascrow.io/about
 https://pandascrow.io/developers
 https://pandascrow.io/pricing
 https://pandascrow.io/contact
+https://pandascrow.io/terms
+https://pandascrow.io/policy
