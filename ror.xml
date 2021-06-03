@@ -14,15 +14,15 @@
 </item>
 <item>
      <link>https://pandascrow.io/about</link>
-     <title>About Scrow</title>
-     <description>About Scrow</description>
+     <title>About Pandascrow</title>
+     <description>Scrow is a technology company that solves payment problems for ambitious businesses. Our mission is to provide African businesses with safety, ease and flexibility when carrying out transactions online.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
      <link>https://pandascrow.io/developers</link>
-     <title>Developers with Pandascrow</title>
+     <title>Developer</title>
      <description>Explore our guides and examples to integrate Scrow.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
@@ -30,7 +30,7 @@
 </item>
 <item>
      <link>https://pandascrow.io/pricing</link>
-     <title>Pandascrow Pricing</title>
+     <title>Pricing</title>
      <description>Learn more about Pandascrow simple, fair pricing</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
@@ -38,7 +38,7 @@
 </item>
 <item>
      <link>https://pandascrow.io/contact</link>
-     <title>Contact Pandascrow</title>
+     <title>Contact Us</title>
      <description>Need a quick answer? Enter your question below for instant responses.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
@@ -47,15 +47,15 @@
 <item>
      <link>https://pandascrow.io/terms</link>
      <title>Terms of Service</title>
-     <description>Learn more about Pandascrow simple, fair pricing</description>
+     <description>Everything you need to know, all in one place. How we work, Terms of Service, Terms you agree to when you use Pandascrow, Data Policy, and More.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
      <link>https://pandascrow.io/policy</link>
-     <title>Pandascrow Policy</title>
-     <description>Learn more about Pandascrow simple, fair pricing</description>
+     <title>Policy</title>
+     <description>Pandascrow is governed by Fair Policy of use</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>

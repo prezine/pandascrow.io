@@ -7,20 +7,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Learn more about Pandascrow simple, fair pricing">
+    <meta name="description" content="Everything you need to know, all in one place. How we work, Terms of Service, Terms you agree to when you use Pandascrow, Data Policy, and More.">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://pandascrow.io/terms">
     <meta property="og:title" content="Terms of Service">
-    <meta property="og:description" content="Terms of Service, 2020">
+    <meta property="og:description" content="Everything you need to know, all in one place. How we work, Terms of Service, Terms you agree to when you use Pandascrow, Data Policy, and More.">
     <meta property="og:image" content="./assets/images/pandascrow.io cover.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://pandascrow.io/terms">
     <meta property="twitter:title" content="Terms of Service">
-    <meta property="twitter:description" content="Terms of Service, 2020">
+    <meta property="twitter:description" content="Everything you need to know, all in one place. How we work, Terms of Service, Terms you agree to when you use Pandascrow, Data Policy, and More.">
     <meta property="twitter:image" content="./assets/images/pandascrow.io cover.png">
 
     <!--External Stylesheets css-->

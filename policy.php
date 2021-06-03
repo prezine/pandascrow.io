@@ -3,24 +3,24 @@
 
 <head>
     <!--Metas-->
-    <title>Pandascrow Policy</title>
+    <title>Policy</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Learn more about Pandascrow simple, fair pricing">
+    <meta name="description" content="Pandascrow is governed by Fair Policy of use">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://pandascrow.io/policy">
     <meta property="og:title" content="Pandascrow Policy">
-    <meta property="og:description" content="Pandascrow Policy, 2020">
+    <meta property="og:description" content="Pandascrow is governed by Fair Policy of use">
     <meta property="og:image" content="./assets/images/pandascrow.io cover.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://pandascrow.io/policy">
     <meta property="twitter:title" content="Pandascrow Policy">
-    <meta property="twitter:description" content="Pandascrow Policy, 2020">
+    <meta property="twitter:description" content="Pandascrow is governed by Fair Policy of use">
     <meta property="twitter:image" content="./assets/images/pandascrow.io cover.png">
 
     <!--External Stylesheets css-->

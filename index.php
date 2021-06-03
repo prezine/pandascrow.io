@@ -342,16 +342,16 @@
                                                               <div class="input-group-prepend">
                                                                 <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">NGN</button>
                                                                 <div class="dropdown-menu">
-                                                                  <a class="dropdown-item" href="#">USD</a>
-                                                                  <a class="dropdown-item" href="#">NGN</a>
-                                                                  <a class="dropdown-item" href="#">EUR</a>
-                                                                  <div role="separator" class="dropdown-divider"></div>
-                                                                  <a class="dropdown-item" href="#">BTC</a>
+                                                                  <button class="dropdown-item" type="button">USD</button>
+                                                                  <button class="dropdown-item" type="button">NGN</button>
+                                                                  <button class="dropdown-item" type="button">EUR</button>
+                                                                  <!--<div role="separator" class="dropdown-divider"></div>
+                                                                  <a class="dropdown-item" href="#">BTC</a>-->
                                                                 </div>
                                                               </div>
                                                               <input type="text" class="form-control" onkeyup="pricing.sendercalc(this.value)" placeholder="Enter amount" aria-label="Text input with dropdown button">
                                                             </div>
-
+                                                            
                                                             <h6 class="costholder">Amount <span class="float-right" id="damtcalc">&#x20a6; 0</span></h6>
                                                             <h6 class="costholder">Escrow fee <span class="float-right" id="dscrowfee">&#x20a6; 0</span></h6>
                                                             <h6 class="costholder">Processing fee <span class="float-right" id="dprocessfee">&#x20a6; 0</span></h6>
@@ -681,7 +681,7 @@
                 <div class="row">
                     <div class="col-md-12 col-lg-12 col-sm-12 col-12 wow fadeInRight">
                         <div class="padd-40 text-center">
-                            <h2 class="title-h2 color-white">Join millions on Scrow</h2>
+                            <h2 class="title-h2 color-white">Join thousands of safe customers on Scrow</h2>
                             <p class="color-white font-p mg-tp-30 mg-bt-30 font-20">Get started for free</p>
                             <a href="https://app.pandascrow.io/join" class="btn btn-white">Let's go!</a>
                         </div>
@@ -691,103 +691,6 @@
             <!--container-->
         </section>
         <!-- call to action -->
-
-        <!--sponsors clients-->
-        <section id="sponsors" class="padd-40 bg-color">
-            <!--container-->
-            <div class="container">
-                <div class="row">
-                    <div class="row-centered">
-                        <div class="col-centered col-lg-12 col-md-12">
-                            <div class="client-slider">
-                                <div class="item">
-                                    <img src="assets/images/clients/logo1.png" class="margin-auto img-responsive" title="Circlepanda">
-                                </div>
-                                <div class="item">
-                                    <img src="assets/images/clients/logo2.png" class="margin-auto img-responsive" title="Chatbot">
-                                </div>
-                                <div class="item">
-                                    <img src="assets/images/clients/logo3.png" class="margin-auto img-responsive" title="Farmsby">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--End sponsors clients-->
-
-        <!--contact-->
-        <section id="contact" class=" padd-80">
-
-            <!--container-->
-            <div class="container">
-                <div class="contact-inner">
-                    <div class="row-centered">
-                        <div class="col-centered col-lg-7">
-                            <h2 class="title-h2">Have any question? </h2>
-                            <p class="font-p mg-tp-30 mg-bt-60 "> Of course, we'd love to help </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class=" col-md-6 col-sm-6 col-lg-6 col-12">
-                            <div class="content-info">
-                                <form action="./#" id="contactscrow" method="post">
-                                    <div class="form-group">
-                                        <input type="text" name="name" id="name" class="form-control" placeholder="Name" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" name="email" id="email" class="form-control" placeholder="Email" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <textarea class="form-control" id="message" rows="4" cols="3" placeholder="Your message" required></textarea>
-                                    </div>
-                                    <div class="form-group">
-                                        <button type="submit" class="btn btn-blue" id="contactbtn">Send message</button>
-                                    </div>
-                                    <div class="errno"></div>
-                                </form>
-                            </div>
-                        </div>
-
-                        <div class=" col-md-6 col-sm-6 col-lg-6 col-12">
-                            <div class="info-icon">
-                                <div class="icon-contact bg-icon-4">
-                                    <img src="assets/images/icons/map.svg" alt="">
-                                </div>
-                                <div class="content-contact">
-                                    <h3>Address</h3>
-                                    <p>41 Woji Road, GRA, Port Harcourt. NG 500027</p>
-                                </div>
-                            </div>
-
-                            <div class="info-icon">
-                                <div class="icon-contact bg-icon-2">
-                                    <img src="assets/images/icons/phone.svg" alt="">
-                                </div>
-
-                                <div class="content-contact">
-                                    <h3>Phone</h3>
-                                    <p>+234 8179 685 649</p>
-                                </div>
-                            </div>
-
-                            <div class="info-icon">
-                                <div class="icon-contact bg-icon-3">
-                                    <img src="assets/images/icons/email.svg" alt="">
-                                </div>
-                                <div class="content-contact">
-                                    <h3>E-mail</h3>
-                                    <p>hello@pandascrow.io</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--container-->
-        </section>
-        <!--contact-->
 
     </div>
 

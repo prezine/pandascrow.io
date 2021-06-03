@@ -15,8 +15,8 @@ class Pricing {
 	    return "₦ " + num.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,");
 	}
 	sendercalc(amt) {
-		// amount, scrowfee, processfee, total
-		var a, s, p, t; 
+		// a = amount, s = scrowfee, p = processfee, t = total
+		var a, s, p, t;
 		a = $("#damtcalc");
 		s = $("#dscrowfee");
 		p = $("#dprocessfee");

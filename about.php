@@ -3,11 +3,27 @@
 
 <head>
     <!--Metas-->
+    <title>About Pandascrow</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="About Scrow">
-    <title>About Scrow</title>
+    <meta name="title" content="About Pandascrow">
+    <meta name="description" content="Scrow is a technology company that solves payment problems for ambitious businesses. Our mission is to provide African businesses with safety, ease and flexibility when carrying out transactions online.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pandascrow.io/about">
+    <meta property="og:title" content="About Pandascrow">
+    <meta property="og:description" content="Scrow is a technology company that solves payment problems for ambitious businesses. Our mission is to provide African businesses with safety, ease and flexibility when carrying out transactions online.">
+    <meta property="og:image" content="./assets/images/pandascrow.io cover.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://pandascrow.io/about">
+    <meta property="twitter:title" content="About Pandascrow">
+    <meta property="twitter:description" content="Scrow is a technology company that solves payment problems for ambitious businesses. Our mission is to provide African businesses with safety, ease and flexibility when carrying out transactions online.">
+    <meta property="twitter:image" content="./assets/images/pandascrow.io cover.png">
+    <!--External Stylesheets css-->
 
     <!--External Stylesheets css-->
 
