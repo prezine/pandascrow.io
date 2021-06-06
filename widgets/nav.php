@@ -9,6 +9,7 @@
                     <li><a href="./developers" class="section-scroll">Developers</a></li>
                     <li><a href="./pricing" class="section-scroll">Pricing</a></li>
                     <li><a href="./contact" class="section-scroll">Contact</a></li>
+                    <li><a href="https://app.pandascrow.io/login" class="btn btn-custom">Log In</a></li>
                 </ul>
             </nav>
         </div>
