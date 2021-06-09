@@ -2073,7 +2073,7 @@ footer p.sucess-message {
   border-radius: 4px;
 }
 .hide { display: none; }
-.errno { font-size:12px; margin-top: 2px;}
+.errno { font-size:12px; margin-top: 22px;}
 p.info-text { display:inline-table; font-size:12px; margin-top: 2px;}
 .team-icon {
   display: inline-table;
