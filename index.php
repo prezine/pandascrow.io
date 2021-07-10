@@ -65,8 +65,14 @@
     {
       "@context": "https://schema.org",
       "@type": "Organization",
+      "name" : "Pandascrow",
       "url": "https://pandascrow.io/",
-      "logo": "assets/images/logo.png"
+      "logo": "assets/images/logo.png",
+      "sameAs" : [ 
+            "http://twitter.com/pandascrow",
+            "https://www.instagram.com/pandascrow.io/",
+            "https://www.linkedin.com/company/pandascrow/"
+      ]
     }
     </script>
     <!-- Google Tag Manager -->
@@ -179,7 +185,7 @@
                                 <div class="icon-text">
                                     <img src="assets/images/icons/headphones.svg" alt="">
                                     <h3>Support</h3>
-                                    <span>Average 1 min response</span>
+                                    <span>24 / 7 support</span>
                                 </div>
                             </div>
                         </div>
@@ -701,7 +707,7 @@
             <!--container-->
         </section>
         <!-- call to action -->
-
+        
     </div>
 
     <!-- Footer-->

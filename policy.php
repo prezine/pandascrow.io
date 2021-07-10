@@ -65,7 +65,12 @@
       "@context": "https://schema.org",
       "@type": "Organization",
       "url": "https://pandascrow.io/policy",
-      "logo": "assets/images/logo.png"
+      "logo": "assets/images/logo.png",
+      "sameAs" : [ 
+            "http://twitter.com/pandascrow",
+            "https://www.instagram.com/pandascrow.io/",
+            "https://www.linkedin.com/company/pandascrow/"
+      ]
     }
     </script>
     <!-- Google Tag Manager -->

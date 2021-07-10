@@ -457,6 +457,19 @@ hr.hr {
   opacity: 0.75;
 }
 
+.navbar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-width: 0;
+  border-top: 4px solid;
+  -o-border-image: -o-linear-gradient(left,#080B57,#080B57 20%,#f9655b 20%,#f9655b 40%,#f5c070 40%,#f5c070 60%,#6658ea 60%,#6658ea 80%,#34CC99 80%) 1;
+  border-image: -webkit-gradient(linear,left top,right top,from(#080B57),color-stop(20%,#080B57),color-stop(20%,#f9655b),color-stop(40%,#f9655b),color-stop(40%,#f5c070),color-stop(60%,#f5c070),color-stop(60%,#6658ea),color-stop(80%,#6658ea),color-stop(80%,#34CC99)) 1;
+  border-image: linear-gradient(to right,#080B57,#080B57 20%,#f9655b 20%,#f9655b 40%,#f5c070 40%,#f5c070 60%,#6658ea 60%,#6658ea 80%,#34CC99 80%) 1;
+}
+
 .row-centered {
   text-align: center;
   position: relative;

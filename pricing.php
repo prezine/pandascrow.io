@@ -65,42 +65,47 @@
       "@context": "https://schema.org",
       "@type": "Organization",
       "url": "https://pandascrow.io/pricing",
-      "logo": "assets/images/logo.png"
+      "logo": "assets/images/logo.png",
+      "sameAs" : [ 
+            "http://twitter.com/pandascrow",
+            "https://www.instagram.com/pandascrow.io/",
+            "https://www.linkedin.com/company/pandascrow/"
+      ]
     },
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [{
         "@type": "Question",
-        "name": "How long does it take for me to get my money?",
+        "name": "How long does it take for me to get my money on Pandascrow?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Your money is automatically settled to your bank account the next working day (T+1). So payments received on Monday, for example, will be settled on Tuesday."
         }
       }, {
         "@type": "Question",
-        "name": "Can scrow be integrated into other platforms?",
+        "name": "Can Pandascrow be integrated into other platforms?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "It's currently not possible, but we have a team of devoted developers working hard in making sure this is possible in coming months ahead."
         }
       }, {
         "@type": "Question",
-        "name": "Is it possible to get settled in USD?",
+        "name": "Is it possible to get settled in USD on Pandascrow?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "No! You can only get settled in Local Currency"
         }
       }, {
         "@type": "Question",
-        "name": "Do you offer transaction volume discounts?",
+        "name": "Do you offer transaction volume discounts on Pandascrow?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Yup! Merchants who process large volumes enjoy a discount on the transaction fee."
         }
       }, {
         "@type": "Question",
-        "name": "Are you able to offer flat rate pricing for schools?",
+        "name": "Are you able to offer flat rate pricing for schools on Pandascrow?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text":"Yup! We offer flat rate pricing to accredited educational institutions. Kindly contact us at hello@pandascrow.io to learn more about flat rate pricing for schools."
@@ -208,7 +213,7 @@
                         <div class="col-md-6">
                             <div class="__card">
                                 <p>For Local Transactions</p>
-                                <h1>1.5% + NGN 100</h1>
+                                <h1>2.25% + NGN 100</h1>
                                 <hr>
                                 <p>₦100 fee waived for transactions under ₦2500. Local transactions fees are capped at ₦100,000.00, meaning that's the absolute maximum you'll ever pay in fees per transaction</p>
                             </div>
@@ -221,6 +226,67 @@
                                 <p>Get paid by your customers from all over the world International cards are charged and settled in Naira by default, but you can also choose to get settled in USD.</p>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row pr-4 pl-4 pt-5">
+                    <h1 class="pt-5 pb-3">Pricing Table</h1>
+                    <div class="col-md-12">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                <th scope="col">Currency</th>
+                                <th scope="col">Amount</th>
+                                <th scope="col">Escrow Fee</th>
+                                <th scope="col">Processing Fee</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">USD ($)</th>
+                                    <th scope="row">0 - 5,000</th>
+                                    <td>3.25% + $2</td>
+                                    <td>3.9%</td>
+                                </tr>
+                                <tr>
+                                    <th></th>
+                                    <th scope="row">5,000.01 - 25,000</th>
+                                    <td>1.50% + $20</td>
+                                    <td>3.9%</td>
+                                </tr>
+                                <tr>
+                                    <th></th>
+                                    <th scope="row">0 - 5,000</th>
+                                    <td>0.89% + $100</td>
+                                    <td>3.9%</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">NGN (₦)</th>
+                                    <th scope="row">0 - 5,000</th>
+                                    <td>2.25% + ₦100</td>
+                                    <td>3.9%</td>
+                                </tr>
+                                <tr>
+                                    <th></th>
+                                    <th scope="row">500,000.01 - 2,000,000</th>
+                                    <td>1.25% + ₦1000</td>
+                                    <td>2.5%</td>
+                                </tr>
+                                <tr>
+                                    <th></th>
+                                    <th scope="row">2,000,000.01 - 10,000,000</th>
+                                    <td>0.50% + ₦10,000</td>
+                                    <td>2.5%</td>
+                                </tr>
+                                <tr>
+                                    <th></th>
+                                    <th scope="row">10,000,000.01+</th>
+                                    <td>0.30% + ₦100,000</td>
+                                    <td>2.5%</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>

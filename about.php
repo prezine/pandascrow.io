@@ -233,9 +233,14 @@
                                     <p class="team-tole">Engineering</p>
                                 </div>
                                 <div class="col-md-6 col-lg-3 col-sm-12">
-                                    <img src="./assets/images/team/team6.jpg" class="team-icon" alt="">
-                                    <h5 class="team-name">Chinoms Ugwuanya</h5>
-                                    <p class="team-tole">Product</p>
+                                    <img src="./assets/images/team/team8.jpg" class="team-icon" alt="">
+                                    <h5 class="team-name">Isaac David</h5>
+                                    <p class="team-tole">Product Manager</p>
+                                </div>
+                                <div class="col-md-6 col-lg-3 col-sm-12">
+                                    <img src="./assets/images/team/team5.jpg" class="team-icon" alt="">
+                                    <h5 class="team-name">Konstantyn Volotka</h5>
+                                    <p class="team-tole">Advisor, Business</p>
                                 </div>
                             </div>
                         </div>

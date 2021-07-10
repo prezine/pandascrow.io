@@ -131,6 +131,10 @@ $(".quote-form").on('submit', function (e) {
 					btn.attr("disabled", true).text("Email Sent 🚀");
 					$(".errno").addClass('text-success').html("Awesome, way to go, we're redirecting you...&nbsp; 🚀")
 					window.setTimeout(function(){window.location.href = "https://app.pandascrow.io/join"}, 5000);	
+				} else if (res == 201) {
+					btn.attr("disabled", true).text("Email Exist ✅");
+					$(".errno").addClass('text-success').html("Great, you seem to have an account with us, we're redirecting you...&nbsp; 🚀")
+					window.setTimeout(function(){window.location.href = "https://app.pandascrow.io/login"}, 5000);
 				} else {
 					btn.attr("disabled", false).text('Get Started');
 					$(".errno").addClass('text-danger').html('Oops, something went wrong &nbsp; ❌')

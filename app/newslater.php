@@ -8,9 +8,15 @@
 			'email' => $_POST['mail'], 
 			'dateSubscribed' => GLOBAL_DATE, 
 		);
-		if ($db->insert('subscribers', $data) == 200) {
-			echo 200;
+		$email = (isset($_POST['mail'])) ? $_POST['mail'] : 0 ;
+		$is_exist = $db->select("SELECT COUNT(*) FROM subscribers WHERE email='$email'")['COUNT(*)'];
+		if ($is_exist == 0) {
+			if ($db->insert('subscribers', $data) == 200) {
+				echo 200;
+			} else {
+				echo $db->insert('subscribers', $data); // error output
+			}
 		} else {
-			echo $db->insert('subscribers', $data); // error output
+			echo 201;
 		}
 	}

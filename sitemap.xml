@@ -18,6 +18,16 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://app.pandascrow.io/login</loc>
+  <lastmod>2021-05-23T16:17:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://app.pandascrow.io/join</loc>
+  <lastmod>2021-05-23T16:17:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://pandascrow.io/developers</loc>
   <lastmod>2021-05-23T16:17:24+00:00</lastmod>
   <priority>0.80</priority>

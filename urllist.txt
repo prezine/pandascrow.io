@@ -1,5 +1,7 @@
 https://pandascrow.io/
 https://pandascrow.io/about
+https://app.pandascrow.io/login
+https://app.pandascrow.io/join
 https://pandascrow.io/developers
 https://pandascrow.io/pricing
 https://pandascrow.io/contact

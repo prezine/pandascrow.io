@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /app
+Allow: /
+Allow: /sitemap.html
+Sitemap: https://pandascrow.io/sitemap.xml

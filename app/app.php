@@ -114,7 +114,7 @@
     
     defined('CIPHER')           OR define('CIPHER', 'AES-256-CBC');
 
-    defined('RAND_TIMESTAMP')   OR define('RAND_TIMESTAMP', round(microtime(true)) . '.' . end($temp));
+    defined('RAND_TIMESTAMP')   OR define('RAND_TIMESTAMP', round(microtime(true)));
 
     /*
     |--------------------------------------------------------------------------

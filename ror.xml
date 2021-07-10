@@ -21,6 +21,22 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
+     <link>https://app.pandascrow.io/login</link>
+     <title>Log In</title>
+     <description>Log in your account with Pandascrow</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://app.pandascrow.io/join</link>
+     <title>Join Pandascrow</title>
+     <description>Join millions of users on Pandasrow</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
      <link>https://pandascrow.io/developers</link>
      <title>Developer</title>
      <description>Explore our guides and examples to integrate Scrow.</description>
